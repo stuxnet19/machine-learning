@@ -1,0 +1,15 @@
+PREREQUIS
+----------
+- Jeu de données MNIST : http://yann.lecun.com/exdb/mnist/  (attention, vous devez decompresser les fichiers .gz avant utilisation)
+
+COMPILATION
+-------------
+- Ouvrir une console dans ce dossier
+- taper "make"
+
+OUTILS
+-------
+- float** data = read_mnist(file); // Lis le fichier 'file' au format MNIST et place les images dans un tableau de flottants à 2D (par exemple data[10][50] donne la 51ème entrée de la 11ème image)
+- save_jpg(un_tableau_de_float, w, h, file); // Sauvegarde une image stockée sous la forme d'un tableau de flottants de dimensions (w*h) dans le fichier JPEG 'file'. Le fichier peut ensuite etre ouvert dans n'importe quel visionneur d'images (par exemple 'eog file' ouvre EyeOfGnome)
+
+
