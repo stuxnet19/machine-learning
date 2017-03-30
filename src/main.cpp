@@ -28,7 +28,7 @@ float dist(float* v1, float* v2){
 	int i;
 	float d=0;
 	for (i=0; i<784; i++){
-		d+= (v1[i]-v2[i])*(v1[i]-v2[i]);		
+		d+= (v1[i]-v2[i])*(v1[i]-v2[i]);
 	}
 	return d;
 }
